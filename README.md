@@ -1,18 +1,24 @@
-## Getting Started
+## Objetivo do Repositório
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este repositório foi criado para salvar exercícios sobre o assunto de Collections, da linguagem Java.
 
-## Folder Structure
+## Exercícios
 
-The workspace contains two folders by default, where:
+### 1. Lista de Tarefas
+<p>Crie uma classe chamada "ListaTarefas" que possui uma lista de tarefas como atributo. Cada tarefa é representada por uma classe chamada "Tarefa" que possui um atributo de descrição. Implemente os seguintes métodos:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- `adicionarTarefa(String descricao)`: Adiciona uma nova tarefa à lista com a descrição fornecida.
+- `removerTarefa(String descricao)`: Remove uma tarefa da lista com base em sua descrição.
+- `obterNumeroTotalTarefas()`: Retorna o número total de tarefas na lista.
+- `obterDescricoesTarefas()`: Retorna uma lista contendo a descrição de todas as tarefas na lista.
+</p>
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+### 2. Carrinho de Compras:
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+<p>Crie uma classe chamada "CarrinhoDeCompras" que representa um carrinho de compras online. O carrinho deve ser implementado como uma lista de itens. Cada item é representado por uma classe chamada "Item" que possui atributos como nome, preço e quantidade. Implemente os seguintes métodos:
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- `adicionarItem(String nome, double preco, int quantidade)`: Adiciona um item ao carrinho com o nome, preço e quantidade especificados.
+- `removerItem(String nome)`: Remove um item do carrinho com base no seu nome.
+- `calcularValorTotal()`: Calcula e retorna o valor total do carrinho, levando em consideração o preço e a quantidade de cada item.
+- `exibirItens()`: Exibe todos os itens presentes no carrinho, mostrando seus nomes, preços e quantidades.
+</p>
